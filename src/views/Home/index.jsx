@@ -10,10 +10,16 @@
     * - Author          : Saif
     * - Modification    : 
 **/
-import React from 'react'
 import { UserLayout } from '../Layout'
 import { HomeBanner } from '../../components/HomeBanner'
 import { HomeCategory } from '../../components/Categories'
+import Mkacademy from '../../components/MkacademyCategory'
+import SubscribeCategory from '../../components/SubscribeCategory'
+import RecentBlogs from '../../components/RecentBlogs'
+import LearningCategory from '../../components/LearningCategory'
+import AwardWinnning from '../../components/AwardWinningCategory'
+import QuestionCategory from '../../components/QuestionSection'
+import ClientFeedback from '../../components/ClientFeedback'
 import { Plans } from '../../components/Plans'
 import { VideoHome } from '../../components/VideoHome'
 
@@ -22,6 +28,13 @@ export const Home = () => {
     <UserLayout>
         <HomeBanner />
         <HomeCategory head="true" />
+        <Mkacademy/>
+        <SubscribeCategory/>
+        <RecentBlogs/>
+        <LearningCategory/>
+        <AwardWinnning/>
+        <QuestionCategory/>
+        <ClientFeedback/>
     </UserLayout>
   )
 }

@@ -702,12 +702,12 @@ div.card01_btn i{
     height: auto;
 }
 
-.award_content{
-    /* text-align: center; */
-    /* position: relative; */
-    /* margin-left: 25px; */
-    /* top: 45%; */
-}
+/* .award_content{
+    text-align: center;
+    position: relative;
+    margin-left: 25px;
+    top: 45%;
+} */
 
 .award_content h1{
     font-size: 70px;
@@ -738,10 +738,11 @@ div.circles{
   left: 0;
   object-fit: cover;
 }
-.second_section .img-div{
-  /* position: relative; */
-  /* bottom: 95px; */
-}
+/* .second_section .img-div{
+  position: relative;
+  bottom: 95px;
+} */
+
 .single_circle {
     position: relative;
     background-color: #fff;
@@ -879,7 +880,7 @@ div.circles{
 }
 .questions_section .single_circle h2{
   font-family: Baihgale;
-  font-size: 26px;
+  font-size: 28px;
 }
 .questions_section .single_circle h3{
   font-family: Baihgale;
@@ -1028,7 +1029,7 @@ div.circles{
 
 
 .client_say_section{
-  padding: 100px 0;
+  padding: 100px 16px;
   position: relative;
 }
 
@@ -1297,6 +1298,7 @@ section.client_say_section .content {
   margin: 5px 7px;
   background: #f9d51d;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 2px;
@@ -1979,10 +1981,10 @@ img.awsome {
     border: 1px solid #fff;
 }
 
-.client_card_main .content_div {
-    /* width: 50%; */
-    /* text-align: center; */
-}
+/* .client_card_main .content_div {
+    width: 50%;
+    text-align: center;
+} */
 
 select#country {
     background: #a1d2ff;
@@ -2015,9 +2017,9 @@ select#state {
     text-align: start;
 }
 
-.section {
-    /* width: 100%; */
-}
+/* .section {
+    width: 100%;
+} */
 
 .client_say_section .content_div p {
     width: 100%;
@@ -2142,4 +2144,9 @@ select#state {
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
+  }
+
+
+  .pageContent{
+    padding-top: 190px;
   }

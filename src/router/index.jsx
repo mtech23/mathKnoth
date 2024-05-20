@@ -10,7 +10,6 @@
     * - Author          : Saif
     * - Modification    : 
 **/
-import React from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Home } from '../views/Home';
 
@@ -20,6 +19,7 @@ import ForgetPassword from '../views/Auth/ForgetPassword';
 import OTPModule from '../views/Auth/ForgetPassword2';
 import UpdatePassword from '../views/Auth/ForgetPassword3';
 import { Blogs } from '../views/Blogs';
+import ContactUs from "../views/ContactUs";
 
 
 export const AppRouter = () => {
@@ -28,13 +28,13 @@ export const AppRouter = () => {
         <Routes>
           <Route path='/' element={<Home />} />
 
-
           <Route path='/login' element={<Login />} />
           <Route path='/user-registration' element={<RegistrationForm />} />
           <Route path='/forget-password' element={<ForgetPassword />} />
           <Route path='/otp-step' element={<OTPModule />} />
           <Route path='/update-password' element={<UpdatePassword />} />
           <Route path='/blog-listing' element={<Blogs />} />
+          <Route path='/contact-us' element={<ContactUs />} />
 
           {/* protected routes  */}
 
